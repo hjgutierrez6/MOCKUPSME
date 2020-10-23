@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Modulo Servicio Cliente</title>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="login Clientes.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo Servicio</h1><p>Andres Martinez</p>
+        <div class="opacity">
+            <form class="formulario-inicio_tecnico">
+<!--Ventana-->
+     <div class="ventana" id="vent">
+        <p>Numero de servicio: 234
+        <br>
+        En breve el tecnico se comunicara con usted para agendar dia y
+        hora del servicio.
+        <br>
+        Gracias por utilizar nuestro aplicativo.
+        <br>
+        Nota: Tenga en cuenta el numero de servicio el cual debe coincidir con el que le proporcione el tecnico por seguridad</p>
+        <br>
+        <br>
+        <br>
+        <p class="botons"><a href="modulo cliente.html">Confirmar</a></p>
+     </div>
+              <div class="column1of2" >
+                  <p>Seleccione el electrodomestico para el cual necesita el servicio:</p>
+                <div class="galeria-port">
+                 <div class="imagen-port">
+              <p><input type="checkbox">Nevera</p>
+              <img src="img/nevera1.jpg" alt="">
+                 </div>
+                 <div class="imagen-port">
+              <p><input type="checkbox">Microondas</p>
+              <img src="img/microondas1.jpg" alt="">
+                  </div>
+                  <div class="imagen-port">
+              <p><input type="checkbox">Televisor</p>
+              <img src="img/televisor1.png" alt="">
+                  </div>
+                  <div class="imagen-port">
+              <p><input type="checkbox">Lavadora</p>
+              <img src="img/lavadora1.jpg" alt="">
+                   </div>
+                </div>
+              </div>
+              <div class="column2of2">
+                  <p>Seleccione Tecnico:</p>
+                   <select>
+                       <option selected="selected">Tecnico</option>
+                          <option>Andres Lopez</option>
+                          <option>Javier Ruiz</option>
+                          <option>Wilmer Cadena</option>
+                          <option>Diego Diaz</option>
+                          <option>Jose Pedraza</option>
+                  </select>
+
+                  <p>Confirme sus datos:</p>
+                  <input class="controls" type="text" name=Nombre id="Nombre"
+                  placeholder="Primer Nombre y Primer Apellido">
+                   <input class="controls" type="text" name="Dirección"
+                  id="Dirección" placeholder="Dirección - Barrio">
+                   <input class="controls" type="tel" name="Celular" id="celular"
+                  placeholder="Celular">
+                  <p>Seleccione el tipo de servicio que requiere:</p>
+                      <p><input type="checkbox">Mantenimiento</p>
+                      <p><input type="checkbox">Reparación</p>
+                  <p>Describa la falla que presenta el electrodomestico</p>
+                  <textarea class="controls" rows="5" cols="15" placeholder="Describa aqui la falla"></textarea>
+                  <p class="botons"><a href="javascript:abrir()">Solicitar Servicio</a></p>
+
+              </div>
+            </form>
+          </div>
+
+
+    </header>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+<script>
+    function abrir() {
+        document.getElementById("vent").style.display="block";
+    }
+</script>
+</body>
+</html>

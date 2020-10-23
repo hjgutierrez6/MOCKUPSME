@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&
+display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,
+400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+rel='stylesheet'>
+
+    <title>Modulo Administrativo</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body bgcolor="#C8D6DF">
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="index.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo Administrativo - Clientes</h1>
+<!--inicio Menu tabla-->
+   <nav id="menu-tabla">
+       <ul>
+
+         <li><a href="moduloadminCasos.html">Servicios</a></li>
+         <li><a href="moduloadmintecnico.html">Tecnicos</a></li>
+       </ul>
+   </nav>
+
+<!--fin menu tabla-->
+<!--inicio tabla-->
+<div id="main-container">
+<table>
+<thead>
+    <tr>
+        <th>Id Usuario</th><th>Nombre Completo</th><th># identificación
+            </th><th># celular</th><th>Dirección</th><th>Correo</th><th>Estado</th>
+    </tr>
+</thead>
+<tr>
+    <td>Amartinez</td><td>Andres Martinez</td><td>45678876</td><td>3209876543</td><td>Calle 3 #16-27 sur</td><td>andres_martinez22@gmail.com</td>
+    <td>
+        <select>
+            <option selected="selected">Activo</option>
+            <option>Inactivo</option>
+            <option>Suspendido</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>Vgomez</td><td>Vanessa Gomez</td><td>1022456765</td><td>3106756463
+    </td><td>Cra 14 #87-34 sur</td><td>Vanessagomez1234@hotmail.com</td>
+    <td>
+        <select>
+            <option selected="selected">Activo</option>
+            <option>Inactivo</option>
+            <option>Suspendido</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td>
+    <td></td><td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td><br></td><td></td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td>
+    </td>
+</tr>
+</table>
+</div>
+<!--fin tabla-->
+<!--Inicio script-->
+<script>
+    function abrir() {
+        document.getElementById("vent").style.display="block";
+    }
+</script>
+<!--Fin script-->
+                <script src="js/menu.js"></script>
+                <script src="js/lightbox.js"></script>
+                </header>
+</body>
+</html>

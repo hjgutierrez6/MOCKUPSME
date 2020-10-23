@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&
+display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,
+400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+rel='stylesheet'>
+
+    <title>Modulo Administrativo</title>
+
+</head>
+
+<body bgcolor="#C8D6DF">
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="index.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo Administrativo - Servicios</h1>
+<!--inicio Menu tabla-->
+   <nav id="menu-tabla">
+       <ul>
+         <li><a href="moduloadmincliente.html">Clientes</a></li>
+         <li><a href="moduloadmintecnico.html">Tecnicos</a></li>
+       </ul>
+   </nav>
+
+<!--fin menu tabla-->
+<!--inicio tabla-->
+<div id="main-container">
+<table>
+<thead>
+    <tr>
+        <th>Id Servicio</th><th>Tipo Servicio</th><th>Equipo</th><th>Diagnostico</th><th>Solicitante</th><th>Fecha Solicitud</th><th>Tecnico</th><th>Estado</th>
+    </tr>
+</thead>
+<tr>
+    <td>234</td><td>Reparación</td><td>Lavadora</td><td>No centrifuga</td><td>Martin Cespedes</td>
+    <td>6/10/2020</td><td>Wilmar Cadena</td>
+    <td><span class="aceptado">En proceso</span></td>
+</tr>
+<tr>
+    <td>132</td><td>Reparación</td><td>Microondas</td><td>No enciende</td><td>Andres Flores</td>
+    <td>2/8/2020</td><td>Javier Ruiz</td>
+    <td><span class="pendiente">Pendiente</span></td>
+</tr><tr>
+    <td>192</td><td>Mantenimiento</td><td>Nevera</td><td>Se forman bloques de hielo</td><td>Vannesa Gomez</td>
+    <td>4/10/2020</td><td>Diego Diaz</td>
+    <td><span class="rechazado">Rechazado</span></td>
+</tr><tr>
+    <td>125</td><td>Reparación</td><td>Nevera</td><td>Los alimentos se dañan,<br> no se esta enfriando</td><td>Angie Caceres</td>
+    <td>10/9/2020</td><td>Andres Lopez</td>
+    <td><span class="pendiente">Pendiente</span></td>
+</tr><tr>
+    <td>230</td><td>Mantenimiento</td><td>Lavadora</td><td>La ropa presenta manchas de jabon<br> y demasiadas motas.</td><td>Teresa Rojas</td>
+    <td>5/10/2020</td><td>Jose Pedraza</td>
+    <td><span class="pendiente">Pendiente</span></td>
+</tr><tr>
+    <td>240</td><td>Reparación</td><td>Televisor</td><td>Pantalla con lineas negras
+    </td><td>Manuel Molano</td>
+    <td>1/10/2020</td><td>Javier Ruiz</td>
+    <td><span class="pendiente">Pendiente</span></td>
+</tr><tr>
+    <td>235</td><td>Reparación</td><td>Microondas</td><td>Los alimentos quedan frios</td><td>Adriana Muñoz</td>
+    <td>6/9/2020</td><td>Diego Diaz</td>
+    <td><span class="pendiente">Pendiente</span></td>
+</tr>
+</table>
+</div>
+<!--fin tabla-->
+                <script src="js/menu.js"></script>
+                <script src="js/lightbox.js"></script>
+                </header>
+</body>
+</html>

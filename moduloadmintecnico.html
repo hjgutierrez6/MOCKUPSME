@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&
+display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,
+400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+rel='stylesheet'>
+
+    <title>Modulo Administrativo</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body bgcolor="#C8D6DF">
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="index.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo Administrativo - Tecnicos</h1>
+<!--inicio Menu tabla-->
+   <nav id="menu-tabla">
+       <ul>
+
+         <li><a href="moduloadminCasos.html">Servicios</a></li>
+         <li><a href="moduloadmincliente.html">Clientes</a></li>
+       </ul>
+   </nav>
+
+<!--fin menu tabla-->
+<!--inicio tabla-->
+<div id="main-container">
+<table>
+<thead>
+    <tr>
+        <th>Id Usuario</th><th>Nombre Apellido</th><th># identificación
+            </th><th># celular</th><th>Dirección</th><th>Correo</th><th>Suscripción</th><th>Estado</th>
+    </tr>
+</thead>
+<tr>
+    <td>Wcadena</td><td>Wilmar Cadena</td><td>76890876
+        </td><td>3209890876</td><td>Calle 103 #16-67 sur</td><td>wilm_123@gmail.com</td>
+<td>
+    <select>
+        <option selected="selected">Si</option>
+        <option>No</option>
+    </select>
+</td>
+    <td>
+        <select>
+            <option selected="selected">Activo</option>
+            <option>Inactivo</option>
+            <option>Suspendido</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>Ddiaz</td><td>Diego Diaz</td><td>1022455432</td><td>3166954463
+    </td><td>Cra 82 #18-46 sur</td><td>DiazD_12@hotmail.com</td>
+    <td>
+        <select>
+            <option selected="selected">Si</option>
+            <option>No</option>
+        </select>
+    </td>
+    <td>
+        <select>
+            <option selected="selected">Activo</option>
+            <option>Inactivo</option>
+            <option>Suspendido</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>Jpedraza</td><td>Jose Pedraza</td><td>79456342
+        </td><td>3194423555</td>
+    <td>Cra 104 #14-34 sur</td><td>jopedraza456@gmail.com</td>
+    <td>
+        <select>
+            <option selected="selected">Si</option>
+            <option>No</option>
+        </select>
+    </td>
+    <td>
+        <select>
+            <option selected="selected">Activo</option>
+            <option>Inactivo</option>
+            <option>Suspendido</option>
+        </select>
+    </td>
+</tr>
+</table>
+</div>
+<!--fin tabla-->
+<!--Inicio script-->
+<script>
+    function abrir() {
+        document.getElementById("vent").style.display="block";
+    }
+</script>
+<!--Fin script-->
+                <script src="js/menu.js"></script>
+                <script src="js/lightbox.js"></script>
+                </header>
+</body>
+</html>

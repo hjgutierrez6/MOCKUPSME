@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Solicitudes pendientes</title>
+</head>
+
+<body bgcolor="#C8D6DF">
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="login Tecnicos.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo de Servicio</h1>
+
+            <h2 class="titulo">Solicitudes pendientes</h2>
+            <!--Inicio Ventana-->
+            <div class="ventana" id="vent">
+                <p>servicio #234 <br>En breve el tecnico se comunicara con usted
+            para agendar dia y
+                hora del servicio.<br>Gracias por utilizar nuestro aplicativo.</p>
+             <div id="confirmar"><a href="modulo cliente.html">
+                 <img src="img/confirmar.png" title="confirmar"></a></div>
+             </div>
+            <!--Fin Ventana-->
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <input type="button" value="00"> <select>
+                                <option selected="selected">NEVERA</option>
+                                   <option></option>
+                           </select>
+                            <img src="img/nevera1.jpg" alt="">
+                        </div>
+                        <div class="imagen-port">
+                            <input type="button" value="00"> <select>
+                                <option selected="selected">MICROONDAS</option>
+                                   <option></option>
+                           </select>
+                            <img src="img/microondas1.jpg" alt="">
+
+                        </div>
+                        <div class="imagen-port">
+                            <input type="button" value="00"> <select>
+                                <option selected="selected">TELEVISOR</option>
+                                   <option></option>
+                           </select>
+                            <img src="img/televisor1.png" alt="">
+
+                        </div>
+                        <div class="imagen-port">
+                            <input type="button" value="01"> <select>
+                                <option selected="selected">LAVADORA</option>
+                                   <option><a href="javascript:abrir()">servicio #234</a></option>
+                           </select>
+                            <img src="img/lavadora1.jpg" alt="">
+
+                        </div>
+
+                    </div>
+<!--inicio Scrip ventana-->
+
+<script>
+    function abrir() {
+        document.getElementById("vent").style.display="block";
+    }
+</script>
+<!--Fin script-->
+                <script src="js/menu.js"></script>
+                <script src="js/lightbox.js"></script>
+                </header>
+</body>
+</html>

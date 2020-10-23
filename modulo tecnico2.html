@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SME.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&
+display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,
+400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+rel='stylesheet'>
+    <title>Modulo Tecnico</title>
+</head>
+
+<body bgcolor="#C8D6DF">
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <div class="logo">
+            <img src="img/SME.png" alt="Logo" width="30px">
+            SME</a>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="login Tecnicos.html" class="active">Cerrar sesion</a>
+        </nav>
+        <h1>Modulo de Servicio</h1>
+        <!--Ventana Tecnico-->
+<div class="ventanatec" id="ventn">
+    <p>Servicio #234 <br>
+        <br>
+        Cliente:   Juan Martinez<br>
+        Dirección: Calle 15 sur #23-45 Barrio Carvajal<br>
+        Telefono:  3214567890<br>
+        Servicio:  Reparación<br>
+        Falla:     No realiza centrifugado</p>
+    <br>
+    <br>
+    <p class="botones"><a href="modulotecSi.html">Confirmar</a></p>
+    <p class="botones one"><a href="#">Rechazar</a></p>
+
+ </div>
+
+<!--Fin ventana tecnico-->
+
+
+<div id="main-container">
+     <table>
+    <thead>
+        <tr>
+            <th>Id Servicio</th><th>Tipo Servicio</th><th></th><th>
+                </th><th>Solicitante</th><th>Fecha Solicitud</th><th></th><th>Estado</th>
+        </tr>
+    </thead>
+    <tr>
+        <td><a href="javascript:abrir()">234</a></td><td>Reparación</td><td></td><td></td><td>Andres Martinez</td>
+        <td>6/10/2020</td><td></td>
+        <td><span class="pendiente">Pendiente</span></td>
+    </tr>
+    <tr>
+        <td>192</td><td>Mantenimiento</td><td></td><td></td><td>Vanessa Gomez</td>
+        <td>4/10/2020</td><td></td>
+        <td><span class="pendiente">Pendiente</span></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td>
+        <td><span>Sin registro</td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td>
+        <td><span>Sin registro</span></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td>
+        <td><span>Sin registro</span></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td>
+        <td><span>Sin registro</span></td>
+    </tr>
+    </table>
+    </div>
+
+<!--inicio Scrip ventana-->
+
+<script>
+    function abrir() {
+        document.getElementById("ventn").style.display="block";
+    }
+</script>
+<!--Fin script-->
+                <script src="js/menu.js"></script>
+                <script src="js/lightbox.js"></script>
+                </header>
+</body>
+</html>
